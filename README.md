@@ -33,3 +33,18 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/your-username/contact-manager.git
    cd contact-manager
+2. **Install Dependencies**
+   ```sh
+   npm install
+3. **Set Up Environment Variables**
+- Create a .env file in the root directory.
+- Add the following variables:
+  ```sh
+  PORT=5001
+  CONNECTION_STRING=your_mongodb_connection_string
+  ACCESS_TOKEN_SECRET=your_secret_key
+4. **Start the Server**
+   ```sh
+   npm start
+
+The API will be running at http://localhost:5001
